@@ -1,0 +1,20 @@
+{
+    "name": "Tickers!",
+    "description": "A simple widget that displays the price and market cap of various cryptocurrencies.",
+    "image": "",
+    "properties": {
+        "package_name": "tickers",
+        "current_version": "0.1.0",
+        "publisher": "pacificat.os",
+        "mirrors": [
+            "pacificat.os"
+        ],
+        "code_hashes": {
+            "0.1.0": ""
+        },
+        "wit_version": 0,
+        "dependencies": []
+    },
+    "external_url": "https://kinode.org",
+    "animation_url": ""
+}
