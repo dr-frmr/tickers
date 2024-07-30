@@ -1,26 +1,9 @@
-use kinode_process_lib::{call_init, Address, Request};
-
 wit_bindgen::generate!({
     path: "target/wit",
     world: "process-v0",
 });
 
-call_init!(init);
-fn init(_our: Address) {
-    // add ourselves to the homepage
-    Request::to(("our", "homepage", "homepage", "sys"))
-        .body(
-            serde_json::json!({
-                "Add": {
-                    "label": "Tickers",
-                    "widget": create_widget(),
-                }
-            })
-            .to_string(),
-        )
-        .send()
-        .unwrap();
-}
+kinode_process_lib::widget!("Tickers", create_widget);
 
 fn create_widget() -> String {
     return r#"<html>

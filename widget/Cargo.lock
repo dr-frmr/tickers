@@ -55,9 +55,9 @@ dependencies = [
 
 [[package]]
 name = "alloy-chains"
-version = "0.1.23"
+version = "0.1.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1752d7d62e2665da650a36d84abbf239f812534475d51f072a49a533513b7cdd"
+checksum = "47ff94ce0f141c2671c23d02c7b88990dd432856639595c5d010663d017c2c58"
 dependencies = [
  "num_enum",
  "strum",
@@ -1449,7 +1449,7 @@ dependencies = [
 [[package]]
 name = "kinode_process_lib"
 version = "0.9.0"
-source = "git+https://github.com/kinode-dao/process_lib?branch=develop#9094586e6c816d1c44879f26ac6cced9e31dc839"
+source = "git+https://github.com/kinode-dao/process_lib?branch=develop#550897c305fd7f4b6d3b6428dd5ed01932819230"
 dependencies = [
  "alloy",
  "alloy-primitives",
@@ -2567,9 +2567,9 @@ dependencies = [
 
 [[package]]
 name = "toml_datetime"
-version = "0.6.7"
+version = "0.6.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f8fb9f64314842840f1d940ac544da178732128f1c78c21772e876579e0da1db"
+checksum = "0dd7358ecb8fc2f8d014bf86f6f638ce72ba252a2c3a2572f2a795f1d23efb41"
 
 [[package]]
 name = "toml_edit"
